@@ -10,7 +10,11 @@
 
     <div class="container text-center">
 
+        @include('partials.header')
+
         @yield('content')
+
+        @include('partials.footer')
 
     </div>
     
